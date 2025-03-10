@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadro{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    position: relative;
+    background: pink;
+}
+.animated{
+    animation-direction: normal;
+    animation-duration: 1.0s;
+    animation-name: rotate;
+}
+
+#mover{
+    padding: 10px 20px ;
+    margin-left: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@keyframes rotate {
+    0%{
+       
+        animation-direction:normal;
+        left: 10px;
+
+    
+    }
+
+    100%{
+        animation-direction: reverse;
+       
+        left: 600px;
+    }
+}

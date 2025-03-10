@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: brown;
+}
+
+h1{
+    text-align: center;
+}
+
+#entrada{
+    margin-left: 20px;
+
+}
+
+
+#listau{
+   margin-left: 40px;
+}
+
+.lista{
+    margin: auto;
+    width: 600px;
+    background-color: blanchedalmond;
+
+}
+
+#adicionar{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+}
+

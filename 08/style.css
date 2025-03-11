@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../../../../../../../Downloads/abstract-62-background-wallpaper-gradient_792836-168882.avif);
+    display: flex;
+    max-width: 100%;
+    color: rgb(182, 151, 211);
+    font-family: 'Times New Roman', Times, serif;
+    background-size: cover;
+}
+
+.container{
+    padding: 3px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8D89A6;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: rgb(194, 159, 226);
+
+}
+
+.conteudo{
+    margin-top: 10px;
+    display:flex;
+}
+
+.texto{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.container a{
+    color: pink;
+    padding: 40px;
+    height: 100%;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo{
+    float:left;
+    height: 100px;
+    width: 160px;
+}
+
+.logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
